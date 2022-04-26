@@ -48,7 +48,7 @@ public class TestPay {
 		} else if (code == 3) {
 			manager = new PayManager(new Paypal());
 		} else if (code == 4) {
-			manager = new PayManager(new MasterCard());
+			manager = new PayManager(new Pix());
 		}
 
 		manager.doPay(25d);
