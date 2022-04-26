@@ -1,4 +1,4 @@
-package br.com.benefrancis.estrategy;
+package br.com.benefrancis.strategy;
 
 public class PayManager {
 	private Pay pay;

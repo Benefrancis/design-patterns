@@ -26,8 +26,6 @@ public class TesteTree {
 
 		System.out.println(root.getName());
 		List<Node> nodes = root.getChildNodes();
-		
-		 
 
 		for (Node n : nodes) {
 			System.out.println("-" + n.getName());

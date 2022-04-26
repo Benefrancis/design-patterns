@@ -1,4 +1,4 @@
-package br.com.benefrancis.estrategy;
+package br.com.benefrancis.strategy;
 
 import java.io.IOException;
 import java.util.Scanner;

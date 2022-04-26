@@ -1,4 +1,4 @@
-package br.com.benefrancis.estrategy;
+package br.com.benefrancis.strategy;
 
 public class MasterCard extends Pay {
 
