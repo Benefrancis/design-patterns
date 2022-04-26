@@ -12,7 +12,6 @@ public class TesteTree {
 		Node america = new Node("America");
 		root.add(brasil);
 		root.add(america);
- 
 		
 		Node saoPaulo = new Node("São Paulo");
 		Node rioDeJaneiro = new Node("Rio de Janeiro");
@@ -31,9 +30,8 @@ public class TesteTree {
 			System.out.println("-" + n.getName());
 			List<Node> childes = n.getChildNodes();
 			for (Node c : childes) {
-				System.out.println("---" + c.getName());
+				System.out.println("--" + c.getName());
 			}
 		}
-
 	}
 }
