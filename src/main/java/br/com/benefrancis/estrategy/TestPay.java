@@ -33,10 +33,8 @@ public class TestPay {
 				}
 			}
 
-			System.out.println("Código Inválido");
-			System.out.println("You need to pay $25 for mobile phone");
-			System.out.println("Please select payment method:");
-			System.out.println("1: MasterCard  2: Visa  3:Paypal  4:Pix");
+			System.out.println("** Código Inválido! **");
+			System.out.println("** Tente novamente **");
 
 			code = in.nextInt();
 		}
