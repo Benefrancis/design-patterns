@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Node {
+	
 	protected String name;
+	
 	protected List<Node> childNodes;
 
 	public Node(String name) {
